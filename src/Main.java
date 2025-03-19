@@ -12,6 +12,7 @@ public class Main {
         } else {
             System.out.println(numar + " este impar");
         }
+        scanner.close();
     }
 }
 

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/tekwill-git-practice" vcs="Git" />
+=======
+>>>>>>> 7acaf9bffc394c2a97eecd31cd480174e126c438
   </component>
 </project>

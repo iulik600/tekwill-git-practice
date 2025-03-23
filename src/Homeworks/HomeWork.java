@@ -1,3 +1,5 @@
+package Homeworks;
+
 public class HomeWork {
     public static void main(String[] args) {
          // Declararea array-ului

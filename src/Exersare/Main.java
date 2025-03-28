@@ -1,25 +1,31 @@
 package Exersare;
 
-import java.util.Scanner;
-
 class Car {
-    String model;
-    int hp;
-    int kilometraj;
-
-    Car(String model, int hp, int kilometraj) {
-        this.model = model;
-        this.hp = hp;
-        this.kilometraj = kilometraj;
-
+    //Intiallizarea de variable, tip private
+    private String brand;
+    private int year;
+//Formularea unui constructor
+    public Car(String brand, int year) {
+        this.brand = brand;
+        this.year = year;
     }
-    void displayInfo() {
-        System.out.println("Model: " + model +   ", HorsePower: " + hp + ", KM parcursi: " + kilometraj);
+    //Aplicarea unei meetode
+    public void displayInfo() {
+        System.out.println("Marca:" + brand);
+        System.out.println("Year: " + year);
     }
 }
+
 public class Main {
+
     public static void main(String[] args) {
-        Car YourCar = new Car("bmw", 500, 150);
-        YourCar.displayInfo();
-        }
+        Car car = new Car("TOYOTA", 2005);
+        Car car1 = new Car("Lada", 2001);
+
+        car.displayInfo();
+        car1.displayInfo();
     }
+}
+
+
+
